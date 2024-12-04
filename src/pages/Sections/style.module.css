@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    height: 100dvh;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 1.7rem;
+    margin-bottom: 1.2rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    gap: 1rem;
+}
+
+.nextButton {
+    position: fixed;
+    top: 1.2rem;
+    right: 1.2rem;
+    border: 1px solid  rgb(205, 181, 150);
+    background-color: rgb(212, 190, 161);
+    padding: 0.5rem;
+    padding-inline: 1rem;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}

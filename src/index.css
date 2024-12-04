@@ -1,0 +1,20 @@
+.w-full {
+    width: 100%;
+}
+
+.px-2 {
+    padding-inline: 3px;
+}
+
+.p-4 {
+    padding: 1.2rem;
+}
+
+.my-4 {
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+
+.bg-brown {
+    color: rgb(138, 113, 80);
+}

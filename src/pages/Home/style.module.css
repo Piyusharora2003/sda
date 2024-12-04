@@ -1,0 +1,80 @@
+.navMain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid ;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-color:rgb(219, 218, 166);
+    font-size: 1.6rem;
+}
+
+.HomeMain {
+    margin-right: 1.4rem;
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    height: 80dvh;
+}
+
+.HomeText {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 1rem;
+    gap: 0.5rem;
+}
+
+.HomeImage {
+    width: 60%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+}
+
+.HomeImage img {
+    max-width: 100%;
+    height: 60dvh;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.Heading {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.SubHeading {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.text {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.nextBtn {
+    border: none;
+    background-color: rgb(212, 190, 161);
+    padding: 0.5rem;
+    font-size: larger;
+    padding-inline: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    width: max-content;
+    text-decoration: none;
+}
+
+.logo {
+    color: rgb(138, 113, 80);
+    border-left: solid 6px rgb(120, 99, 70);
+    padding-left: 8px;
+}
