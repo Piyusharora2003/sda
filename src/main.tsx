@@ -9,7 +9,7 @@ import "@copilotkit/react-ui/styles.css";
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter>
-      <CopilotKit>
+      <CopilotKit publicApiKey="<your-publicApiKey>">
         <App />
       </CopilotKit>
     </BrowserRouter>
